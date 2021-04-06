@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1,
+  maximum-scale=5" />
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="icon" href="devchallenges.png" />
+  <link rel="stylesheet" href="https://cdn.lineicons.com/2.0/LineIcons.css">
+  <link rel="shortcut icon" type="image/x-icon" href="https://devchallenges.io/" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;600&family=Montserrat:wght@500&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
+  <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+  <title>Devchallenges</title>
+</head>
+
+<body>
+  <div class="welcome">
+    <h1>Checkout</h1>
+    <div class="main-div">
+      <div class="product-det">
+        <div class="prod1">
+          <img src="/photo1.png" alt="product 1">
+          <div class="prod-1-det">
+            <h2>Vintage Bag</h2>
+            <div class="prod-1-price">
+              <h3>$54.99</h3>
+              <h4>$94.99</h4>
+            </div>
+            <div class="inc-counter-1">
+              <button>-</button>
+              <h2 class="prod-1-quantity">1</h2>
+              <button>+</button>
+            </div>
+          </div>
+        </div>
+        <div class="prod2">
+          <img src="/photo2.png" alt="product 2">
+          <div class="prod-2-det">
+            <h2>Levi Shoes</h2>
+            <div class="prod-2-price">
+              <h3>$74.99</h3>
+              <h4>$124.99</h4>
+            </div>
+            <div class="inc-counter-2">
+              <button>-</button>
+              <h2 class="prod-2-quantity">1</h2>
+              <button>+</button>
+            </div>
+          </div>
+        </div>
+        <div class="total1">
+          <h2>Shipping</h2>
+          <h3>$19</h3>
+        </div>
+        <div class="total2">
+          <h2>Total</h2>
+          <h3>$148.98</h3>
+        </div>
+      </div>
+      <div class="checkout-det">
+        <div class="contact-info">
+          <h2>Contact Information</h2>
+          <div class="input-info">
+            <h4>Email</h4>
+            <div class="input-icons">
+              <img src="/email.png" alt="email">
+              <input class="input-field" type="email" placeholder="Enter your email...">
+            </div>
+          </div>
+          <div class="input-info">
+            <h4>Phone</h4>
+            <div class="input-icons">
+              <img src="/call.png" alt="call">
+              <input class="input-field" type="tel" placeholder="Enter your phone...">
+            </div>
+          </div>
+        </div>
+        <div class="shipping-info">
+          <h2>Shipping address</h2>
+          <div class="input-info">
+            <h4>Full Name</h4>
+            <div class="input-icons">
+              <img src="/user.png" alt="user">
+              <input class="input-field" type="text" placeholder="Enter your name...">
+            </div>
+          </div>
+          <div class="input-info">
+            <h4>Address</h4>
+            <div class="input-icons">
+              <img src="/home.png" alt="address">
+              <input class="input-field" type="text" placeholder="Your address...">
+            </div>
+          </div>
+          <div class="input-info">
+            <h4>City</h4>
+            <div class="input-icons">
+              <img src="/city.png" alt="city">
+              <input class="input-field" type="text" placeholder="Your city...">
+            </div>
+          </div>
+          <div class="address">
+            <div class="listbox-info">
+              <h4>Country</h4>
+              <div class="listbox-add">
+                <i class="lni lni-world lni-16"></i>
+                <select id="country" name="country">
+                  <option value="India">India</option>
+                  <option value="USA">USA</option>
+                  <option value="Singapore">Singapore</option>
+                  <option value="UAE">UAE</option>
+                </select>
+              </div>
+            </div>
+            <div class="postal-info">
+              <h4>City</h4>
+              <div class="input-icons">
+                <i class="lni lni-briefcase"></i>
+                <input class="input-field" type="number" placeholder="Your postal code...">
+              </div>
+            </div>
+          </div>
+          <div class="chckbox">
+            <input type="checkbox" id="chk1" name="chk1" value="Save">
+            <label for="chk1">Save this information for next time.</label><br>
+          </div>
+        </div>
+        <div class="submit-info">
+          <button>Continue</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
